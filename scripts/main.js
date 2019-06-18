@@ -1,5 +1,5 @@
 
-var miImage =  .querySelector('img');
+var miImage =  document.querySelector('img');
 
 miImage.onclick = function() {
   var miSrc = miImage.getAttribute('src');
